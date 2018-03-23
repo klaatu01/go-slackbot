@@ -5,17 +5,20 @@ GoBot is a simple framework for creating a basic bot for slack.
 #### Usage:
 
 Entry point: _token is your slack-bot token._
-`gobot.StartBot(token)`
+```go
+gobot.StartBot(token)
+```
 
 Example main function:
-`import (
+```go
+import (
     "gobot"
     "os"
     )
 func main(){
     gobot.StartBot(os.Args[1])
 }
-`
+```
 
 Creating a Command:
 _..._
