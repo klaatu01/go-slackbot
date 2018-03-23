@@ -1,4 +1,4 @@
-package slackbot
+package gobot
 
 var m map[string]func(string, []string, *RecvMessage) *SendMessage
 

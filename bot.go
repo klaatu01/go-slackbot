@@ -1,4 +1,4 @@
-package slackbot
+package gobot
 
 import (
 	"fmt"
