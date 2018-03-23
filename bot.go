@@ -89,8 +89,5 @@ func ParseMessage(message *RecvMessage) {
 	words := strings.Split(message.Text, " ")
 	command := words[0]
 	args := words[1:]
-	response := RunCommand(command, args, message)
-	if response != nil {
-		Response(response)
-	}
+	RunCommand(command, args, message)
 }
