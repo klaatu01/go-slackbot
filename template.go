@@ -24,5 +24,5 @@ func (t Template) Run(args []string, message *RecvMessage) {
 }
 
 func NewTemplate() Template {
-	return Status{"Status"}
+	return Template{"Status"}
 }
